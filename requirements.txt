@@ -1,0 +1,8 @@
+eventlet==0.37.0
+flask==3.0.3
+flask-socketio==5.4.1
+gunicorn==23.0.0
+load-dotenv==0.1.0
+openai==1.51.2
+pydantic==2.9.2
+tenacity==9.0.0
