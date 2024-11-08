@@ -1,7 +1,7 @@
 import json
-from .prompts import Prompts
-from .llm_openai import LLMOpenAI
-from .response_formats import TaskList, TaskDetermination
+from prompts import Prompts
+from llm_openai import LLMOpenAI
+from response_formats import TaskList, TaskDetermination
 
 import logging
 logger = logging.getLogger(__name__)

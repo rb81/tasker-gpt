@@ -1,7 +1,7 @@
-from .prompts import Prompts
-from .llm_openai import LLMOpenAI
+from prompts import Prompts
+from llm_openai import LLMOpenAI
 import json
-from .response_formats import ObjectiveDetermination, ObjectiveRevision
+from response_formats import ObjectiveDetermination, ObjectiveRevision
 
 import logging
 logger = logging.getLogger(__name__)

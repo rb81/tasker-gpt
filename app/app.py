@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from flask_socketio import SocketIO
-from .main import process_objective
+from main import process_objective
 import logging
 import os
 

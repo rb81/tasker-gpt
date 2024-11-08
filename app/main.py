@@ -1,6 +1,6 @@
-from .objective import Objective
-from .tasks import Tasks
-from .execute_tasks import ExecuteTasks
+from objective import Objective
+from tasks import Tasks
+from execute_tasks import ExecuteTasks
 
 import logging
 logger = logging.getLogger(__name__)
